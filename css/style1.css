@@ -5,29 +5,49 @@ body {
 	font-family:  Verdana, Helvetica, Arial, san-serif; padding: 25px;
 	width: 790px;
 	background-image: url("../images/harley_background.jpg");
+	background-attachment: fixed;
+	background-position: 0px; -200px;
+	Margin: 0 auto;
+	font-family: 'Permanent Marker', cursive;
 	}
 .bodyheader{
-	width: 210px; height: 100px;
+	width: 214px; height: 100px;
 	background-color: #555;
+	background-image: url("../images/linen_background.png");
 	float: left;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 	}
 .title{
 	margin: 0px;
 	padding-right: 5px;
 	width: 570px; height: 50px;
 	background-color: #555;
+	background-image: url("../images/linen_background.png");
 	float: left;
 	line-height: 50px;
 	border-bottom: double; 10px;
-	border-color: #792e2f;
+	border-bottom-color: #792e2f;
+	border-top-right-radius: 10px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 205
 	}
 img {
 	padding-top: 15px;
 	}
 	
+div {
+	Margin-top: 25px:
+	}
+.historypic {
+	float: left;
+	padding-top: 0px;
+	padding-right: 10px;
+	}
+	
 h2 {
-	margin-top: 120px;
-	width: 450px;
+	margin-top: 25px;
+	width: 760px;
 	padding-bottom:10px;
 	border-bottom: double; 10px;
 	border-color: #792e2f;
@@ -39,12 +59,58 @@ nav li {
 	width: 120px;
 	margin: 0px;
 	clear: right;
+	font-family: 'Permanent Marker', cursive;
 	}
 	
 nav ul {
 	width: 530px; height: 30px;
 	margin: 0px;
 	background-color: #555;
+	float: left;
+	clear: right;
+	line-height: 30px;
+	padding: 0px;
+	padding-top: 17px;
+	padding-left: 45px;
+	list-style-type: none;
+	border-bottom-right-radius: 10px;	
+	}
+
+nav a {
+	text-decoration: none;
+	background-color: silver;
+	display: block;
+	text-align: center;
+	color: #000;
+	}
+	
+nav a:link{
+	background: #777;
+	background-image: url("../images/linen_background.png");
+	color: #792e2f;
+	}
+	
+nav a:visited{
+	background: #777;
+	color: #fff;
+	text-decoration: line-through;
+	}
+	
+nav a:hover{
+	background: #000;
+	color: silver;
+	}
+		
+nav a:active{
+	background: #000;
+	color: silver;
+	}
+	
+nav ul {
+	width: 530px; height: 30px;
+	margin: 0px;
+	background-color: #555;
+	background-image: url("../images/linen_background.png");
 	float: left;
 	clear: right;
 	line-height: 30px;
@@ -62,21 +128,74 @@ nav a {
 	color: #000;
 	}
 	
-a:hover{
-	background: #000;
-	color: silver;
+a:link{
+	color: #792e2f;
 	}
 	
-	a:visited{
+a:visited{
+	color: #fff;
 	text-decoration: line-through;
-	background: #555;
+	}
+	
+a:hover{
 	color: #000;
+	}
+		
+a:active{
+	color: #000;
+	}
+
+a {
+	text-decoration: none;
+	}
+	
+h3 {
+	padding: 0px;
+	margin: 0px;
+	}
+	
+p {
+	text-indent: 30px;
+	padding: 0px;
+	margin: 0px;
+	font-family:  Verdana, Helvetica, Arial, san-serif; padding: 25px;
 	}
 	
 .history {
-	width: 780;
-	margin-top: 20px;
+	width: 790;
+	margin-top: 120px;
+	margin-bottom 0px;
 	background-color: #555;
+	background-image: url("../images/linen_background.png");
+	padding: 0 15px;
+	border-radius: 10px;
+	-moz-box-shadow: 5px; 5px; 5px; #000;
+	-webkit-box-shadow: 5px; 5px; 5px; #000;
+	box-shadow: 5px; 5px; 5px; #000;
+	}
+	
+.gallery {
+	width: 790;
+	margin: 0;
+	background-color: #555;
+	background-image: url("../images/linen_background.png");
 	padding-left: 15px;
 	Padding-right: 15px;
+	border-radius: 10px;
+	-moz-box-shadow: 5px; 5px; 5px; #000;
+	-webkit-box-shadow: 5px; 5px; 5px; #000;
+	box-shadow: 5px; 5px; 5px; #000;
+	}
+	
+.events {
+	width: 790;
+	margin: 0px;
+	background-color: #555;
+	background-image: url("../images/linen_background.png");
+	padding-left: 15px;
+	Padding-right: 15px;
+	border-radius: 10px;
+	-moz-box-shadow: 5px; 5px; 5px; #000;
+	-webkit-box-shadow: 5px; 5px; 5px; #000;
+	box-shadow: 5px; 5px; 5px; #000;
 	}
