@@ -1,0 +1,82 @@
+/*
+CSS for Harley Site
+*/
+body {
+	font-family:  Verdana, Helvetica, Arial, san-serif; padding: 25px;
+	width: 790px;
+	background-image: url("../images/harley_background.jpg");
+	}
+.bodyheader{
+	width: 210px; height: 100px;
+	background-color: #555;
+	float: left;
+	}
+.title{
+	margin: 0px;
+	padding-right: 5px;
+	width: 570px; height: 50px;
+	background-color: #555;
+	float: left;
+	line-height: 50px;
+	border-bottom: double; 10px;
+	border-color: #792e2f;
+	}
+img {
+	padding-top: 15px;
+	}
+	
+h2 {
+	margin-top: 120px;
+	width: 450px;
+	padding-bottom:10px;
+	border-bottom: double; 10px;
+	border-color: #792e2f;
+	}
+nav li {
+	list-style: inline;
+	background-color: silver;
+	float: left;
+	width: 120px;
+	margin: 0px;
+	clear: right;
+	}
+	
+nav ul {
+	width: 530px; height: 30px;
+	margin: 0px;
+	background-color: #555;
+	float: left;
+	clear: right;
+	line-height: 30px;
+	padding: 0px;
+	padding-top: 17px;
+	padding-left: 45px;
+	list-style-type: none;	
+	}
+
+nav a {
+	text-decoration: none;
+	background-color: silver;
+	display: block;
+	text-align: center;
+	color: #000;
+	}
+	
+a:hover{
+	background: #000;
+	color: silver;
+	}
+	
+	a:visited{
+	text-decoration: line-through;
+	background: #555;
+	color: #000;
+	}
+	
+.history {
+	width: 780;
+	margin-top: 20px;
+	background-color: #555;
+	padding-left: 15px;
+	Padding-right: 15px;
+	}
