@@ -96,15 +96,10 @@ nav a:hover {
 	background-image: url("../images/linen_background.png");
 	padding: 0 15px;
 	border-radius: 10px;
-	-moz-box-shadow: 5px; 5px; 5px; #000;
-	-webkit-box-shadow: 5px; 5px; 5px; #000;
-	box-shadow: 5px; 5px; 5px; #000;
 	}
 	
-.historypic {
-	float: left;
-	padding-top: 0px;
-	padding-right: 10px;
+h1 {
+	text-shadow: 5px 5px 5px #333;
 	}
 	
 h2 {
@@ -113,11 +108,13 @@ h2 {
 	padding-bottom:10px;
 	border-bottom: double; 10px;
 	border-color: #792e2f;
+	text-shadow: 5px 5px 5px #333;
 	}
 	
 h3 {
 	padding: 0px;
 	margin: 0px;
+	text-shadow: 5px 5px 5px #333;
 	}
 	
 p {
@@ -127,6 +124,9 @@ p {
 	font-family:  Verdana, Helvetica, Arial, san-serif; padding: 25px;
 	}
 
+.threecolumn {
+	-moz-column-count: 3;
+	}
 /*--------------------------Gallery----------------------*/
 
 #gallery {
@@ -189,24 +189,20 @@ a:active {
 	padding-left: 15px;
 	Padding-right: 15px;
 	border-radius: 10px;
-	-moz-box-shadow: 5px; 5px; 5px; #000;
-	-webkit-box-shadow: 5px; 5px; 5px; #000;
-	box-shadow: 5px; 5px; 5px; #000;
 	}
 	
+aside ul {
+	list-style: square;
+	}
 /*--------------------------Register----------------------*/
 
 #register {
 	width: 790;
 	margin: 0px;
-	background-color: #555;
 	background-image: url("../images/linen_background.png");
 	padding-left: 15px;
 	Padding-right: 15px;
 	border-radius: 10px;
-	-moz-box-shadow: 5px; 5px; 5px; #000;
-	-webkit-box-shadow: 5px; 5px; 5px; #000;
-	box-shadow: 5px; 5px; 5px; #000;
 	}
 	
 /*--------------------------Register----------------------*/
@@ -215,12 +211,8 @@ a:active {
 	width: 790;
 	height: 50px;
 	margin-top: 25px;
-	background-color: #555;
-	background-image: url("../images/linen_background.png");
+	background-color: rgba(125, 125, 125, 0.70);
 	padding-left: 15px;
 	Padding-right: 15px;
 	border-radius: 10px;
-	-moz-box-shadow: 5px; 5px; 5px; #000;
-	-webkit-box-shadow: 5px; 5px; 5px; #000;
-	box-shadow: 5px; 5px; 5px; #000;
 	}
