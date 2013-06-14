@@ -35,8 +35,7 @@ body {
 	border-top-right-radius: 10px;
 	font-family: 'Permanent Marker', cursive;
 	font-size: 205
-	}
-	
+	}	
 	
 nav ul {
 	width: 540px; height: 30px;
@@ -163,6 +162,7 @@ section li {
 	}
 	
 a:link {
+	text-decoration: none;
 	color: #792e2f;
 	}
 	
