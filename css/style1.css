@@ -6,7 +6,6 @@ body {
 	width: 790px;
 	background-image: url("../images/harley_background.jpg");
 	background-attachment: fixed;
-	background-position: 0px; -200px;
 	Margin: 0 auto;
 	font-family: 'Permanent Marker', cursive;
 	}
@@ -30,11 +29,11 @@ body {
 	background-image: url("../images/linen_background.png");
 	float: left;
 	line-height: 50px;
-	border-bottom: double; 10px;
+	border-bottom: double;
 	border-bottom-color: #792e2f;
 	border-top-right-radius: 10px;
-	font-family: 'Permanent Marker', cursive;
-	font-size: 205
+	font-family: 'Permanent Marker';
+	font-size: 205%;
 	}	
 	
 nav ul {
@@ -59,7 +58,7 @@ nav li {
 	width: 100px;
 	margin: 0px;
 	clear: right;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Permanent Marker';
 	}
 
 nav a {
@@ -86,12 +85,15 @@ nav a:hover {
 	background: #000;
 	color: silver;
 	}
+	
+header img {
+	padding-top: 15px;
+	}
 /*--------------------------History----------------------*/
 	
 #history {
-	width: 790;
+	width: 760px;
 	margin-top: 120px;
-	margin-bottom 0px;
 	background-color: #555;
 	background-image: url("../images/linen_background.png");
 	padding: 0 15px;
@@ -106,7 +108,7 @@ h2 {
 	margin-top: 25px;
 	width: 760px;
 	padding-bottom:10px;
-	border-bottom: double; 10px;
+	border-bottom: double;
 	border-color: #792e2f;
 	text-shadow: 5px 5px 5px #333;
 	}
@@ -130,16 +132,13 @@ p {
 /*--------------------------Gallery----------------------*/
 
 #gallery {
-	width: 790;
+	width: 760px;
 	margin: 0;
 	background-color: #555;
 	background-image: url("../images/linen_background.png");
 	padding-left: 15px;
 	Padding-right: 15px;
 	border-radius: 10px;
-	-moz-box-shadow: 5px; 5px; 5px; #000;
-	-webkit-box-shadow: 5px; 5px; 5px; #000;
-	box-shadow: 5px; 5px; 5px; #000;
 	}
 	
 section ul {
@@ -153,11 +152,11 @@ section ul {
 section li {
 	margin: 0px;
 	float: left;
-	margin: 0px 10px;
+	margin: 0px;
 	padding: 0px;
 	width: 150px;
 	Height: 100px;
-	border: double; 10px;
+	border: double;
 	border-color: #792e2f;
 	}
 	
@@ -182,7 +181,7 @@ a:active {
 /*--------------------------Events----------------------*/
 
 #events {
-	width: 790;
+	width: 760px;
 	margin: 0px;
 	background-color: #555;
 	background-image: url("../images/linen_background.png");
@@ -197,7 +196,7 @@ div aside ul {
 /*--------------------------Register----------------------*/
 
 #register {
-	width: 790;
+	width: 760px;
 	margin: 0px;
 	background-image: url("../images/linen_background.png");
 	padding-left: 15px;
@@ -208,7 +207,7 @@ div aside ul {
 /*--------------------------Register----------------------*/
 
 #footer {
-	width: 790;
+	width: 760px;
 	height: 50px;
 	margin-top: 25px;
 	background-color: rgba(125, 125, 125, 0.70);
