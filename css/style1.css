@@ -14,8 +14,8 @@ body {
 	
 .bodyheader{
 	width: 214px; height: 100px;
-	background-color: #555;
-	background-image: url("../images/linen_background.png");
+	background-color: #ccc;
+	background-image: url("../images/linen_background.jpg");
 	float: left;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
@@ -25,8 +25,8 @@ body {
 	margin: 0px;
 	padding-right: 5px;
 	width: 570px; height: 50px;
-	background-color: #555;
-	background-image: url("../images/linen_background.png");
+	background-color: #ccc;
+	background-image: url("../images/linen_background.jpg");
 	float: left;
 	line-height: 50px;
 	border-bottom: double;
@@ -39,8 +39,8 @@ body {
 nav ul {
 	width: 540px; height: 30px;
 	margin: 0px;
-	background-color: #555;
-	background-image: url("../images/linen_background.png");
+	background-color: #ccc;
+	background-image: url("../images/linen_background.jpg");
 	float: left;
 	clear: right;
 	line-height: 30px;
@@ -71,7 +71,7 @@ nav a {
 	
 nav a:link {
 	background: #777;
-	background-image: url("../images/linen_background.png");
+	background-image: url("../images/linen_background.jpg");
 	color: #792e2f;
 	}
 	
@@ -94,8 +94,8 @@ header img {
 #history {
 	width: 760px;
 	margin-top: 120px;
-	background-color: #555;
-	background-image: url("../images/linen_background.png");
+	background-color: #ccc;
+	background-image: url("../images/linen_background.jpg");
 	padding: 0 15px;
 	border-radius: 10px;
 	}
@@ -134,8 +134,8 @@ p {
 #gallery {
 	width: 760px;
 	margin: 0;
-	background-color: #555;
-	background-image: url("../images/linen_background.png");
+	background-color: #ccc;
+	background-image: url("../images/linen_background.jpg");
 	padding-left: 15px;
 	Padding-right: 15px;
 	border-radius: 10px;
@@ -183,8 +183,8 @@ a:active {
 #events {
 	width: 760px;
 	margin: 0px;
-	background-color: #555;
-	background-image: url("../images/linen_background.png");
+	background-color: #ccc;
+	background-image: url("../images/linen_background.jpg");
 	padding-left: 15px;
 	Padding-right: 15px;
 	border-radius: 10px;
@@ -198,7 +198,7 @@ div aside ul {
 #register {
 	width: 760px;
 	margin: 0px;
-	background-image: url("../images/linen_background.png");
+	background-image: url("../images/linen_background.jpg");
 	padding-left: 15px;
 	Padding-right: 15px;
 	border-radius: 10px;
@@ -210,7 +210,7 @@ div aside ul {
 	width: 760px;
 	height: 50px;
 	margin-top: 25px;
-	background-color: rgba(125, 125, 125, 0.70);
+	background-color: rgba(205, 205, 205, 0.70);
 	padding-left: 15px;
 	Padding-right: 15px;
 	border-radius: 10px;
