@@ -2,60 +2,58 @@
 
 
 body {
-	font-family:  Verdana, Helvetica, Arial, san-serif; padding: 25px;
-	width: 790px;
+	font-family: 100%/1.5 Verdana, Helvetica, Arial, san-serif; 
+	max-width: 790px;
 	background-image: url("../images/harley_background.jpg");
 	background-attachment: fixed;
 	Margin: 0 auto;
 	font-family: 'Permanent Marker', cursive;
 	}
+#wrapper {
+	max-width: 100%;
+	padding: 3.164557%;
+	}
 	
 /*--------------------------Header----------------------*/
 	
 .bodyheader{
-	width: 214px; height: 100px;
+	width: 100%; /* 220px */ height: 100px;
 	background-color: #ccc;
 	background-image: url("../images/linen_background.jpg");
 	float: left;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
+	border-radius: 10px;
 	}
-	
+
+		
 .title{
 	margin: 0px;
-	padding-right: 5px;
-	width: 570px; height: 50px;
-	background-color: #ccc;
-	background-image: url("../images/linen_background.jpg");
+	padding-right: .877193%; /* 5px */
+	width: 71.274706%; /* 570px */ height: 50px;
 	float: left;
+	clear: right;
 	line-height: 50px;
 	border-bottom: double;
 	border-bottom-color: #792e2f;
-	border-top-right-radius: 10px;
 	font-family: 'Permanent Marker';
-	font-size: 205%;
+	font-size: 180%;
 	}	
 	
 nav ul {
-	width: 540px; height: 30px;
+	width: 68%; height: 30px;
 	margin: 0px;
-	background-color: #ccc;
-	background-image: url("../images/linen_background.jpg");
 	float: left;
-	clear: right;
 	line-height: 30px;
 	padding: 0px;
 	padding-top: 17px;
-	padding-left: 35px;
-	list-style-type: none;
-	border-bottom-right-radius: 10px;	
+	padding-left: 4%;
+	list-style-type: none;	
 	}
 	
 nav li {
 	list-style: inline;
 	background-color: silver;
 	float: left;
-	width: 100px;
+	width: 18%;
 	margin: 0px;
 	clear: right;
 	font-family: 'Permanent Marker';
@@ -88,11 +86,13 @@ nav a:hover {
 	
 header img {
 	padding-top: 15px;
+	max-width: 27%;
+	float: left;
 	}
 /*--------------------------History----------------------*/
 	
 #history {
-	width: 760px;
+	width: 96%;
 	margin-top: 120px;
 	background-color: #ccc;
 	background-image: url("../images/linen_background.jpg");
@@ -101,21 +101,24 @@ header img {
 	}
 	
 h1 {
+	font-size: 1.5em;
 	text-shadow: 5px 5px 5px #333;
 	}
 	
 h2 {
 	margin-top: 25px;
-	width: 760px;
+	width: 96%;
 	padding-bottom:10px;
 	border-bottom: double;
 	border-color: #792e2f;
+	font-size: 1.375em;
 	text-shadow: 5px 5px 5px #333;
 	}
 	
 h3 {
 	padding: 0px;
 	margin: 0px;
+	font-size: 1.125em;
 	text-shadow: 5px 5px 5px #333;
 	}
 	
@@ -124,6 +127,7 @@ p {
 	padding: 0px;
 	margin: 0px;
 	font-family:  Verdana, Helvetica, Arial, san-serif; padding: 25px;
+	font-size: 1em;
 	}
 
 .threecolumn {
@@ -132,7 +136,7 @@ p {
 /*--------------------------Gallery----------------------*/
 
 #gallery {
-	width: 760px;
+	width: 96%;
 	margin: 0;
 	background-color: #ccc;
 	background-image: url("../images/linen_background.jpg");
@@ -152,7 +156,7 @@ section ul {
 section li {
 	margin: 0px;
 	float: left;
-	margin: 0px;
+	margin: 8px;
 	padding: 0px;
 	width: 150px;
 	Height: 100px;
@@ -181,7 +185,7 @@ a:active {
 /*--------------------------Events----------------------*/
 
 #events {
-	width: 760px;
+	width: 96%;
 	margin: 0px;
 	background-color: #ccc;
 	background-image: url("../images/linen_background.jpg");
@@ -196,7 +200,7 @@ div aside ul {
 /*--------------------------Register----------------------*/
 
 #register {
-	width: 760px;
+	width: 96%;
 	margin: 0px;
 	background-image: url("../images/linen_background.jpg");
 	padding-left: 15px;
@@ -207,7 +211,7 @@ div aside ul {
 /*--------------------------Register----------------------*/
 
 #footer {
-	width: 760px;
+	width: 96%;
 	height: 50px;
 	margin-top: 25px;
 	background-color: rgba(205, 205, 205, 0.70);
