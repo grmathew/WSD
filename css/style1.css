@@ -36,7 +36,7 @@ body {
 	font-family: 'Permanent Marker';
 	font-size: 180%;
 	}	
-	
+
 nav ul {
 	width: 68%;
 	margin: 0px;
@@ -53,7 +53,6 @@ nav li {
 	float: left;
 	width: 18%;
 	margin: 0px;
-	clear: right;
 	font-family: 'Permanent Marker';
 	list-style-type: none;
 	}
@@ -82,7 +81,6 @@ header img {
 	padding-top: 15px;
 	max-width: 27%;
 	float: left;
-	clear: right;
 	}
 /*--------------------------History----------------------*/
 	
@@ -91,7 +89,8 @@ header img {
 	margin-top: 120px;
 	background-color: #ccc;
 	background-image: url("../images/linen_background.jpg");
-	padding: 0 15px;
+	padding-left: 1.973684%; /* 15px */
+	Padding-right: 1.973684%; /* 15px */
 	border-radius: 10px;
 	}
 	
@@ -186,8 +185,8 @@ img {
 	margin: 0px;
 	background-color: #ccc;
 	background-image: url("../images/linen_background.jpg");
-	padding-left: 15px;
-	Padding-right: 15px;
+	padding-left: 1.973684%; /* 15px */
+	Padding-right: 1.973684%; /* 15px */
 	border-radius: 10px;
 	}
 	
@@ -200,8 +199,8 @@ div aside ul {
 	width: 96%;
 	margin: 0px;
 	background-image: url("../images/linen_background.jpg");
-	padding-left: 15px;
-	Padding-right: 15px;
+	padding-left: 1.973684%; /* 15px */
+	Padding-right: 1.973684%; /* 15px */
 	border-radius: 10px;
 	}
 	
@@ -212,7 +211,26 @@ div aside ul {
 	min-height: 50px;
 	margin-top: 25px;
 	background-color: rgba(205, 205, 205, 0.70);
-	padding-left: 15px;
-	Padding-right: 15px;
+	padding-left: 1.973684%; /* 15px */
+	Padding-right: 1.973684%; /* 15px */
 	border-radius: 10px;
 	}
+	
+/*=Media Queries 
+============================================================*/
+
+ /* Tablet Portrait size to standard 960 (devices and browsers)*/
+ @media screen and (min-width: 768px) and (max-width 959px){
+ 
+ }
+ 
+  /* Mobile Landscape size to Tablet Portrait (devices and browsers)*/
+ @media screen and (min-width: 480px) and (max-width 767px){
+ 
+ }
+ 
+  /* Mobile Portrait size to Mobile Landscape (devices and browsers)*/
+ @media screen and(max-width 479px){
+ 
+ }
+ 
