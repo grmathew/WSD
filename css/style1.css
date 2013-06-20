@@ -258,38 +258,18 @@ div aside ul {
   #title {
  	height: 100px;
  	font-size: 1.4em;
- }
- 
- nav li {
-	float: none;
-	list-style: none;
-	}	
-	
-nav ul {
-	float: left;
-	}
-	
-aside {
-	width: 90%;
-	}
+ }	
 	
 #threecolumn {
 	-moz-column-count: 1;
 	}
 	
 #title { 
-	clear: both;
 	width: 90%;
 	}
 	
-section li {
-	float: none;
-	width: 90%;
-	}
-
-section ul {
-	-moz-column-count: 2;
-	}
- 
+#navaside {
+	width: 50%;
+	} 
  }
  
