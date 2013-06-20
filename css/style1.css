@@ -271,5 +271,8 @@ div aside ul {
 #navaside {
 	width: 50%;
 	} 
+nav li {
+	float: none;
+	}
  }
  
