@@ -191,8 +191,22 @@ img {
 	border-radius: 10px;
 	}
 	
-div aside ul {
-	list-style: square;
+table{
+	border-collapse: collapse;
+	padding: 0.3em;
+	}
+
+th {
+	border: 2px solid #000;
+	padding: 0.3em;
+	background: #999;
+	color: #000;
+	text-align: left;
+	}
+	
+td {
+	border: 2px solid #000;
+	padding: 0.3em;
 	}
 /*--------------------------Register----------------------*/
 
@@ -203,6 +217,15 @@ div aside ul {
 	padding-left: 1.973684%; /* 15px */
 	Padding-right: 1.973684%; /* 15px */
 	border-radius: 10px;
+	}
+	
+fieldset {
+	background: #999;
+	}
+	
+#agreement {
+	margin: 0px;
+	padding: 0px;
 	}
 	
 /*--------------------------Footer----------------------*/
@@ -271,8 +294,13 @@ div aside ul {
 #navaside {
 	width: 50%;
 	} 
+	
 nav li {
 	float: none;
+	}
+	
+section ul {
+	-moz-column-count: 1;
 	}
  }
  

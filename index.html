@@ -18,7 +18,7 @@
 					<li><a href="#history">History</a></li>
 					<li><a href="#gallery">Gallery</a></li>
 					<li><a href="#events">Events</a></li>
-					<li><a href="#register">Register</a></li>
+					<li><a href="#register">Contact</a></li>
 				</ul>
 			</nav>
 		</aside> 
@@ -59,19 +59,60 @@
 		<div id="events">
 			<aside>
 				<h2>Events</h2>
-					<ul>
-						<li><strong>Bingo Ride</strong> June 30th</li>
-						<li><strong>Independance Day Ride</strong> July 4th</li>
-					</ul>
+					<table>
+						<tr>
+							<th>Event</th>
+							<th>Date</th>
+						</tr>
+						<tr>
+							<td>Bingo Ride</td>
+							<td>June 30th</td>
+						</tr>
+						<tr>
+							<td>Independence Day Ride</td>
+							<td>July 4th</td>
+						</tr>
+					</table>
 					<a href="index.html">Home</a>
 			</aside>
 		</div><!--end events div-->
 		<div id="register">
 			<aside>
-				<h2>Register</h2>
-					<ul>
-						<li>Call to Action Section</li>
-					</ul>
+				<h2>Contact</h2>
+				<fieldset>
+					<legend>Register for Newsletter</legend>
+					<form method="get" action="mailto:garry.mathews@ymail.com">
+						<div>
+							<label for=name_first>First Name</label>
+							<input type="text" name="name_first" id="name_first">
+						</div>
+						<div>
+							<label for=name_last>Last Name</label>
+							<input type="text" name="name_last" id="name_last">
+						</div>
+						<div>
+							<label for=email address>email address</label>
+							<input type="text" name="email address" id="email address">
+						</div>
+					</form>
+				</fieldset>
+				<fieldset>
+					<legend>Comments/Questions</legend>
+					<form method="get" action="mailto:garry.mathews@ymail.com">
+						<div>
+							<select name="regarding" id=regarding>
+							<option>Choose one</option>
+							<option>Comment</option>
+							<option>Question</option>
+							<option>Suggestion</option>
+						</div>
+						
+						<div>
+							<label for="comment">Comment</label>
+							<textarea rows="15" cols="50" name="comment" id="comment"></textarea>
+						</div>
+					</form>
+				</fieldset>
 					<a href="index.html">Home</a>
 			</aside>
 		</div><!--end register div-->
