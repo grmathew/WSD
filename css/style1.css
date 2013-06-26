@@ -223,11 +223,30 @@ fieldset {
 	background: #999;
 	}
 	
-#agreement {
-	margin: 0px;
-	padding: 0px;
+.submit {
+	color: #fff;
+	background: #792e2f;
+	border: 10px;
+	border-radius: 10px;
+	height: 25px;
 	}
 	
+#regarding {
+	float: left;
+	}
+	
+.submitp {
+	Margin: 10px 0px;
+	float: right;
+	}
+textarea {
+	left: clear;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	width: 100%;
+	}
 /*--------------------------Footer----------------------*/
 
 #footer {
