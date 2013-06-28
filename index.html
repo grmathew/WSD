@@ -79,42 +79,46 @@
 		<div id="register">
 			<aside>
 				<h2>Contact</h2>
+				<div>
 				<fieldset>
 					<legend>Register for Newsletter</legend>
 					<form method="get" action="mailto:garry.mathews@ymail.com">
 						<div>
-							<label for=name_first>First Name</label>
+							<label for="name_first">First Name</label>
 							<input type="text" name="name_first" id="name_first">
 						</div>
+						
 						<div>
 							<label for=name_last>Last Name</label>
 							<input type="text" name="name_last" id="name_last">
 						</div>
+						
 						<div>
-							<label for=email address>email address</label>
-							<input type="text" name="email address" id="email address">
+							<label for=email_address>email address</label>
+							<input type="text" name="email_address" id="email_address">
 						</div>
 					</form>
 					<p class="submitp"><input type="submit" class="submit"/></p>
 				</fieldset>
+				</div>
+				<div>
 				<fieldset>
 					<legend>Comments/Questions</legend>
 					<form method="get" action="mailto:garry.mathews@ymail.com">
 						<div>
-							<select name="regarding" id=regarding>
+		  					<select name="regarding" id=regarding>
 							<option>Choose one</option>
 							<option>Comment</option>
 							<option>Question</option>
 							<option>Suggestion</option>
-						</div>
-						
-						<div>
-							<label for="comment">Comment</label>
-							<textarea rows="15" cols="50" name="comment" id="comment"></textarea>
+					
+							<label for="comment"></label>
+							<textarea id="comment" name="comment" cols="50" rows="15"></textarea>
 						</div>
 					</form>
 					<p class=submitp><input type="submit" class="submit"/></p>
 				</fieldset>
+				</div>
 					<a href="index.html">Home</a>
 			</aside>
 		</div><!--end register div-->
